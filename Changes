@@ -1,5 +1,10 @@
 Revision history for WWW-Google-URLShortener
 
+0.11    Sat Jan 17 10:45:00 2015
+        - Removed SIGNATURE file.
+        - Updated MANIFEST.SKIP file to ignore folder 'eumm/'.
+        - Updated Copyright year information.
+
 0.10    Sat Aug 30 01:55:18 2014
         - Added section "REPOSITORY" to the pod document.
         - Added key "META_MERGE" to Makefile.PL file.

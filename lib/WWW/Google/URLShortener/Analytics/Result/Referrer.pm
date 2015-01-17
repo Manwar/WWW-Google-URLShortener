@@ -1,12 +1,6 @@
 package WWW::Google::URLShortener::Analytics::Result::Referrer;
 
-$WWW::Google::URLShortener::Analytics::Result::Referrer::VERSION = '0.10';
-
-use 5.006;
-use overload q{""} => 'as_string', fallback => 1;
-
-use Moo;
-use namespace::clean;
+$WWW::Google::URLShortener::Analytics::Result::Referrer::VERSION = '0.11';
 
 =head1 NAME
 
@@ -14,9 +8,15 @@ WWW::Google::URLShortener::Analytics::Result::Referrer - Placeholder for the res
 
 =head1 VERSION
 
-Version 0.10
+Version 0.11
 
 =cut
+
+use 5.006;
+use overload q{""} => 'as_string', fallback => 1;
+
+use Moo;
+use namespace::clean;
 
 has id    => (is => 'ro');
 has count => (is => 'ro');
@@ -82,7 +82,7 @@ L<http://search.cpan.org/dist/WWW-Google-URLShortener/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright (C) 2011 - 2014 Mohammad S Anwar.
+Copyright (C) 2011 - 2015 Mohammad S Anwar.
 
 This  program  is  free software; you can redistribute it and/or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain a copy of the full

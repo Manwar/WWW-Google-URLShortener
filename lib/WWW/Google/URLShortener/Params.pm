@@ -1,6 +1,16 @@
 package WWW::Google::URLShortener::Params;
 
-$WWW::Google::URLShortener::Params::VERSION = '0.10';
+$WWW::Google::URLShortener::Params::VERSION = '0.11';
+
+=head1 NAME
+
+WWW::Google::URLShortener::Params - Placeholder for parameters for L<WWW::Google::URLShortener>.
+
+=head1 VERSION
+
+Version 0.11
+
+=cut
 
 use 5.006;
 use strict; use warnings;
@@ -11,16 +21,6 @@ use vars qw(@ISA @EXPORT @EXPORT_OK);
 require Exporter;
 @ISA = qw(Exporter);
 @EXPORT_OK = qw(validate);
-
-=head1 NAME
-
-WWW::Google::URLShortener::Params - Placeholder for parameters for WWW::Google::URLShortener
-
-=head1 VERSION
-
-Version 0.10
-
-=cut
 
 sub check_url {
     my ($str) = @_;
@@ -100,7 +100,7 @@ L<http://search.cpan.org/dist/WWW-Google-Places/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2011 - 2014 Mohammad S Anwar.
+Copyright (C) 2011 - 2015 Mohammad S Anwar.
 
 This  program  is  free software; you can redistribute it and/or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain a copy of the full

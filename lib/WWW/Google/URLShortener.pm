@@ -1,6 +1,16 @@
 package WWW::Google::URLShortener;
 
-$WWW::Google::URLShortener::VERSION = '0.10';
+$WWW::Google::URLShortener::VERSION = '0.11';
+
+=head1 NAME
+
+WWW::Google::URLShortener - Interface to Google URL Shortener API.
+
+=head1 VERSION
+
+Version 0.11
+
+=cut
 
 use 5.006;
 use JSON;
@@ -20,16 +30,6 @@ use namespace::clean;
 extends 'WWW::Google::UserAgent';
 
 our $BASE_URL = 'https://www.googleapis.com/urlshortener/v1/url';
-
-=head1 NAME
-
-WWW::Google::URLShortener - Interface to Google URL Shortener API.
-
-=head1 VERSION
-
-Version 0.10
-
-=cut
 
 =head1 DESCRIPTION
 
@@ -221,7 +221,7 @@ L<http://search.cpan.org/dist/WWW-Google-URLShortener/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2011 - 2014 Mohammad S Anwar.
+Copyright (C) 2011 - 2015 Mohammad S Anwar.
 
 This  program  is  free software; you can redistribute it and/or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain a copy of the full

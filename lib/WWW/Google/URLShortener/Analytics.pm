@@ -1,10 +1,6 @@
 package WWW::Google::URLShortener::Analytics;
 
-$WWW::Google::URLShortener::Analytics::VERSION = '0.10';
-
-use 5.006;
-use Moo;
-use namespace::clean;
+$WWW::Google::URLShortener::Analytics::VERSION = '0.11';
 
 =head1 NAME
 
@@ -12,9 +8,13 @@ WWW::Google::URLShortener::Analytics - Placeholder for the analytics of short UR
 
 =head1 VERSION
 
-Version 0.10
+Version 0.11
 
 =cut
+
+use 5.006;
+use Moo;
+use namespace::clean;
 
 has id      => (is => 'ro');
 has longUrl => (is => 'ro');
@@ -119,7 +119,7 @@ L<http://search.cpan.org/dist/WWW-Google-URLShortener/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright (C) 2011 - 2014 Mohammad S Anwar.
+Copyright (C) 2011 - 2015 Mohammad S Anwar.
 
 This  program  is  free software; you can redistribute it and/or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
