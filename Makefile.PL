@@ -24,6 +24,7 @@ WriteMakefile(
         'namespace::clean'       => 0,
         'JSON'                   => 0,
         'Data::Validate::URI'    => 0,
+        'Data::Validate::Domain' => 0,
         'WWW::Google::UserAgent' => '0.14',
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
