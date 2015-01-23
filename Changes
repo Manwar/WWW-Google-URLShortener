@@ -1,5 +1,9 @@
 Revision history for WWW-Google-URLShortener
 
+0.12    Fri Jan 23 17:25:00 2015
+        - Upgraded to use WWW::Google::UserAgent v0.14.
+        - Patched RT: 101674, logged against WWW::Google::Places by mistake.
+
 0.11    Sat Jan 17 10:45:00 2015
         - Removed SIGNATURE file.
         - Updated MANIFEST.SKIP file to ignore folder 'eumm/'.

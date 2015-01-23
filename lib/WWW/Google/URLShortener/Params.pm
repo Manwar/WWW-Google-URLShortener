@@ -1,6 +1,6 @@
 package WWW::Google::URLShortener::Params;
 
-$WWW::Google::URLShortener::Params::VERSION = '0.11';
+$WWW::Google::URLShortener::Params::VERSION = '0.12';
 
 =head1 NAME
 
@@ -8,12 +8,13 @@ WWW::Google::URLShortener::Params - Placeholder for parameters for L<WWW::Google
 
 =head1 VERSION
 
-Version 0.11
+Version 0.12
 
 =cut
 
 use 5.006;
 use strict; use warnings;
+use Data::Validate::URI qw(is_uri);
 use Data::Dumper;
 
 use vars qw(@ISA @EXPORT @EXPORT_OK);
@@ -25,7 +26,7 @@ require Exporter;
 sub check_url {
     my ($str) = @_;
 
-    die "ERROR: Invalid data type 'url' [$str]" unless (defined $str && $str =~ /^(http(?:s)?\:\/\/[a-zA-Z0-9\-]+(?:\.[a-zA-Z0-9\-]+)*\.[a-zA-Z]{2,6}(?:\/?|(?:\/[\w\-]+)*)(?:\/?|\/\w+\.[a-zA-Z]{2,4}(?:\?[\w]+\=[\w\-]+)?)?(?:\&[\w]+\=[\w\-]+)*)$/);
+    die "ERROR: Invalid data type 'url' [$str]" unless (defined $str && is_uri($str));
 };
 
 our $FIELDS = {
