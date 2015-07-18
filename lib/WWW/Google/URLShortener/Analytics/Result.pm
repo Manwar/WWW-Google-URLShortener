@@ -1,6 +1,6 @@
 package WWW::Google::URLShortener::Analytics::Result;
 
-$WWW::Google::URLShortener::Analytics::Result::VERSION = '0.13';
+$WWW::Google::URLShortener::Analytics::Result::VERSION = '0.14';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ WWW::Google::URLShortener::Analytics::Result - Placeholder for the result of ana
 
 =head1 VERSION
 
-Version 0.13
+Version 0.14
 
 =cut
 

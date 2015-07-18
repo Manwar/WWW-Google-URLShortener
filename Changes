@@ -1,5 +1,9 @@
 Revision history for WWW-Google-URLShortener
 
+0.14    Sun Jul 19 03:40:00 2015
+        - Fixed issue RT: 105926.
+        - Upgraded to use WWW::Google::UserAgent v0.16.
+
 0.13    Fri Jan 23 20:15:00 2015
         - Added Data::Validate::Domain as pre-requisite to the Makefile.PL file.
 

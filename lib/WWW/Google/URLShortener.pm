@@ -1,6 +1,6 @@
 package WWW::Google::URLShortener;
 
-$WWW::Google::URLShortener::VERSION = '0.13';
+$WWW::Google::URLShortener::VERSION = '0.14';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ WWW::Google::URLShortener - Interface to Google URL Shortener API.
 
 =head1 VERSION
 
-Version 0.13
+Version 0.14
 
 =cut
 
@@ -99,7 +99,7 @@ sub expand_url {
 
     validate({ shortUrl => 1 }, { shortUrl => $short_url });
 
-    my $url      = sprintf("%s?shortUrl=%s", $BASE_URL, $short_url);
+    my $url      = sprintf("%s?key=%s&shortUrl=%s", $BASE_URL, $self->api_key, $short_url);
     my $response = $self->get($url);
     my $content  = from_json($response->{content});
 
@@ -124,7 +124,7 @@ sub get_analytics {
 
     validate({ shortUrl => 1 }, { shortUrl => $short_url });
 
-    my $url      = sprintf("%s?shortUrl=%s&projection=FULL", $BASE_URL, $short_url);
+    my $url      = sprintf("%s?key=%s&shortUrl=%s&projection=FULL", $BASE_URL, $self->api_key, $short_url);
     my $response = $self->get($url);
     my $content  = from_json($response->{content});
 
