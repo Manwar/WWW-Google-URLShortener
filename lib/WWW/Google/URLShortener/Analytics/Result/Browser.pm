@@ -1,6 +1,6 @@
 package WWW::Google::URLShortener::Analytics::Result::Browser;
 
-$WWW::Google::URLShortener::Analytics::Result::Browser::VERSION = '0.14';
+$WWW::Google::URLShortener::Analytics::Result::Browser::VERSION = '0.15';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ WWW::Google::URLShortener::Analytics::Result::Browser - Placeholder for the resu
 
 =head1 VERSION
 
-Version 0.14
+Version 0.15
 
 =cut
 

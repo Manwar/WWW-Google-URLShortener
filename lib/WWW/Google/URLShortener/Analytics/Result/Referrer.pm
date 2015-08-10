@@ -1,6 +1,6 @@
 package WWW::Google::URLShortener::Analytics::Result::Referrer;
 
-$WWW::Google::URLShortener::Analytics::Result::Referrer::VERSION = '0.14';
+$WWW::Google::URLShortener::Analytics::Result::Referrer::VERSION = '0.15';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ WWW::Google::URLShortener::Analytics::Result::Referrer - Placeholder for the res
 
 =head1 VERSION
 
-Version 0.14
+Version 0.15
 
 =cut
 
