@@ -1,6 +1,6 @@
 package WWW::Google::URLShortener::Analytics::Result::Country;
 
-$WWW::Google::URLShortener::Analytics::Result::Country::VERSION = '0.13';
+$WWW::Google::URLShortener::Analytics::Result::Country::VERSION = '0.14';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ WWW::Google::URLShortener::Analytics::Result::Country - Placeholder for the resu
 
 =head1 VERSION
 
-Version 0.13
+Version 0.14
 
 =cut
 
