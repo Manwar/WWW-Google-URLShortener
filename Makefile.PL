@@ -25,7 +25,7 @@ WriteMakefile(
         'JSON'                   => '2.53',
         'Data::Validate::URI'    => '0.06',
         'Data::Validate::Domain' => '0.10',
-        'WWW::Google::UserAgent' => '0.17',
+        'WWW::Google::UserAgent' => '0.18',
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'WWW-Google-URLShortener-*' },
