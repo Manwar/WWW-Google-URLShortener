@@ -1,6 +1,6 @@
 package WWW::Google::URLShortener;
 
-$WWW::Google::URLShortener::VERSION = '0.16';
+$WWW::Google::URLShortener::VERSION = '0.17';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ WWW::Google::URLShortener - Interface to Google URL Shortener API.
 
 =head1 VERSION
 
-Version 0.16
+Version 0.17
 
 =cut
 
@@ -36,6 +36,8 @@ our $BASE_URL = 'https://www.googleapis.com/urlshortener/v1/url';
 The Google URL Shortener at goo.gl is a service that takes long URLs and squeezes
 them into fewer characters to make a link that is easier to share, tweet or email
 to friends. Currently it supports version v1.
+
+The official Google API document can be found L<here|https://developers.google.com/url-shortener/v1/getting_started>.
 
 IMPORTANT: The version v1 of Google URL Shortener API is in Labs and its features
 might change unexpectedly until it graduates.
