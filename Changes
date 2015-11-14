@@ -1,5 +1,8 @@
 Revision history for WWW-Google-URLShortener
 
+0.19   Sat Nov 14 12:10:00 2015
+       - Added LICENSE file.
+
 0.18   Tue Nov 10 12:00:00 2015
        - Upgraded to use WWW::Google::UserAgent v0.20.
 
