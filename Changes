@@ -1,4 +1,8 @@
-Revision history for WWW-Google-URLShortener
+Revision history for WWW::Google::URLShortener
+
+0.20   Thu Jun 14 11:30:00 2017
+       - Added $AUTHORITY
+       - Tidied up attribute definitions.
 
 0.19   Sat Nov 14 12:10:00 2015
        - Added LICENSE file.

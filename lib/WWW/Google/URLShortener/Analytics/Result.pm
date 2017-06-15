@@ -1,6 +1,7 @@
 package WWW::Google::URLShortener::Analytics::Result;
 
-$WWW::Google::URLShortener::Analytics::Result::VERSION = '0.19';
+$WWW::Google::URLShortener::Analytics::Result::VERSION   = '0.20';
+$WWW::Google::URLShortener::Analytics::Result::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
 
@@ -8,7 +9,7 @@ WWW::Google::URLShortener::Analytics::Result - Placeholder for the result of ana
 
 =head1 VERSION
 
-Version 0.19
+Version 0.20
 
 =cut
 
@@ -60,7 +61,7 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 
 =head1 REPOSITORY
 
-L<https://github.com/Manwar/WWW-Google-URLShortener>
+L<https://github.com/manwar/WWW-Google-URLShortener>
 
 =head1 BUGS
 
