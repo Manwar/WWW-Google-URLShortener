@@ -11,7 +11,6 @@ WriteMakefile(
     VERSION_FROM       => 'lib/WWW/Google/URLShortener.pm',
     ABSTRACT_FROM      => 'lib/WWW/Google/URLShortener.pm',
     LICENSE            => 'artistic_2',
-    PL_FILES           => {},
     MIN_PERL_VERSION   => 5.006,
     CONFIGURE_REQUIRES => {
         'ExtUtils::MakeMaker' => 0,
@@ -34,8 +33,8 @@ WriteMakefile(
         resources => {
             repository => {
                 type => 'git',
-                url  => 'https://github.com/Manwar/WWW-Google-URLShortener.git',
-                web  => 'https://github.com/Manwar/WWW-Google-URLShortener',
+                url  => 'https://github.com/manwar/WWW-Google-URLShortener.git',
+                web  => 'https://github.com/manwar/WWW-Google-URLShortener',
             },
         }})
      : ()

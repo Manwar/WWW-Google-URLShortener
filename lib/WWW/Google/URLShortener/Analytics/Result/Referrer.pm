@@ -1,6 +1,6 @@
 package WWW::Google::URLShortener::Analytics::Result::Referrer;
 
-$WWW::Google::URLShortener::Analytics::Result::Referrer::VERSION   = '0.20';
+$WWW::Google::URLShortener::Analytics::Result::Referrer::VERSION   = '0.21';
 $WWW::Google::URLShortener::Analytics::Result::Referrer::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ WWW::Google::URLShortener::Analytics::Result::Referrer - Placeholder for the res
 
 =head1 VERSION
 
-Version 0.20
+Version 0.21
 
 =cut
 
@@ -19,8 +19,7 @@ use overload q{""} => 'as_string', fallback => 1;
 use Moo;
 use namespace::clean;
 
-has id    => (is => 'ro');
-has count => (is => 'ro');
+has [ qw(id count) ] => (is => 'ro');
 
 sub as_string {
     my ($self) = @_;

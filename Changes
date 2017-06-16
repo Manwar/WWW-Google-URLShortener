@@ -1,5 +1,9 @@
 Revision history for WWW::Google::URLShortener
 
+0.21   Fri Jun 16 10:50:00 2017
+       - Tidied up test scripts and removed "-T" switch.
+       - Tidied up attribute definitions.
+
 0.20   Thu Jun 14 11:30:00 2017
        - Added $AUTHORITY
        - Tidied up attribute definitions.

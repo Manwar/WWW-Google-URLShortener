@@ -1,6 +1,6 @@
 package WWW::Google::URLShortener::Analytics::Result;
 
-$WWW::Google::URLShortener::Analytics::Result::VERSION   = '0.20';
+$WWW::Google::URLShortener::Analytics::Result::VERSION   = '0.21';
 $WWW::Google::URLShortener::Analytics::Result::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ WWW::Google::URLShortener::Analytics::Result - Placeholder for the result of ana
 
 =head1 VERSION
 
-Version 0.20
+Version 0.21
 
 =cut
 
@@ -17,13 +17,7 @@ use 5.006;
 use Moo;
 use namespace::clean;
 
-has type           => (is => 'ro');
-has shortUrlClicks => (is => 'ro');
-has longUrlClicks  => (is => 'ro');
-has countries      => (is => 'ro');
-has referrers      => (is => 'ro');
-has browsers       => (is => 'ro');
-has platforms      => (is => 'ro');
+has [ qw(type shortUrlClicks longUrlClicks countries referrers browsers platforms) ] => (is => 'ro');
 
 =head1 METHODS
 
