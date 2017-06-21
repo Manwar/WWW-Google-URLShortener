@@ -30,6 +30,16 @@ WriteMakefile(
     clean => { FILES => 'WWW-Google-URLShortener-*' },
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
+        provides    => {
+            'WWW::Google::URLShortener'                    => { file => 'lib/WWW/Google/Shortener.pm'                 , version => '0.22' },
+            'WWW::Google::URLShortener::Params'            => { file => 'lib/WWW/Google/Shortener/Params.pm'          , version => '0.22' },
+            'WWW::Google::URLShortener::Analytics'         => { file => 'lib/WWW/Google/Shortener/Analytics.pm'       , version => '0.22' },
+            'WWW::Google::URLShortener::Analytics::Result' => { file => 'lib/WWW/Google/Shortener/Analytics/Result.pm', version => '0.22' },
+            'WWW::Google::URLShortener::Analytics::Result::Country'  => { file => 'lib/WWW/Google/Shortener/Analytics/Result/Country.pm' , version => '0.22' },
+            'WWW::Google::URLShortener::Analytics::Result::Browser'  => { file => 'lib/WWW/Google/Shortener/Analytics/Result/Browser.pm' , version => '0.22' },
+            'WWW::Google::URLShortener::Analytics::Result::Referrer' => { file => 'lib/WWW/Google/Shortener/Analytics/Result/Referrer.pm', version => '0.22' },
+            'WWW::Google::URLShortener::Analytics::Result::Platform' => { file => 'lib/WWW/Google/Shortener/Analytics/Result/Platform.pm', version => '0.22' },
+        },
         resources => {
             repository => {
                 type => 'git',
